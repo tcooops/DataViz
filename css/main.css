@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+body {
+	background: whitesmoke;
+}
+
+.hidden {
+	display: none;
+}
+
+
+.container {
+	margin: 0 auto;
+	background-color: #efefef;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.box {
+	background-color: #8ea86e;
+	color: white:
+	border-radius: 5px;
+	padding: 20px;
+	text-align: center;
+	margin: 10px;
+	width: 100px;
+}
+
