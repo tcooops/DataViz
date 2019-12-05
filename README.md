@@ -4,7 +4,7 @@
 
 I will prove that the Female Canadian Olympic athletes have achieved the highest amount of gold medals over winter Olympic history compared to any other countries’ female athletes. 
 
-##Data Findings so far..
+##Data Findings so far.. (top THREE countries)
 
 
 - Canada's GOLD medals: **123**
@@ -24,7 +24,12 @@ Canada: **239**
 America: 243
 Germany:157
 
-### Built with the help of Python 3, Sublime Text
+### Data provided by..
+Olympic Sports and Medals, 1896-2014		
+		
+Data was provided by the IOC Research and Reference Service and published by The Guardian's Datablog.		
+
+### Built with Python 3, Sublime Text
 
 ### Authors:
 **Tessa Benton-Cooper**
