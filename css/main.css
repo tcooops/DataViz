@@ -1,8 +1,49 @@
 @charset "UTF-8";
 
-body {
-	background: whitesmoke;
+
+.banner
+{
+  height: 650px;
+  width: 980px;
+  position: relative; /*set to relative to anything that uses absolute inside will positioned to the top left corner of this element*/
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
+
+.bannerIndex {
+  background: url(../images/banner.png) no-repeat bottom; 
+}
+
+ 
+body {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  	font-size: 14px;
+ 	color: #565656;
+ 	background-color: #ffffff;
+	background-image: url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23e1e1e1' fill-opacity='0.28' fill-rule='evenodd'%3E%3Cpath d='M0 40L40 0H20L0 20M40 40V20L20 40'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+div,p,body,header,footer,section,article,nav,h1,h2,h3,h4 { 
+	margin: 0; 
+	padding: 0; 
+} 
+
+a:link {
+	text-decoration: none;
+	color: 	#9932CC;
+}
+
+a:active {
+	text-decoration: none;
+	color: #ccc;
+}
+
+a:hover {
+	color: #00FF00;
+}
+
+
 
 .hidden {
 	display: none;
@@ -11,19 +52,63 @@ body {
 
 .container {
 	margin: 0 auto;
-	background-color: #efefef;
+	width: 980px;
+	background-color: #fff;
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
 }
 
-.box {
-	background-color: #8ea86e;
-	color: white:
-	border-radius: 5px;
-	padding: 20px;
-	text-align: center;
-	margin: 10px;
-	width: 100px;
+.container p {
+	color: #565656;
+	margin: 5px 5px 5px 5px;
+	justify-content: left;
 }
+
+
+.thesis {
+	margin: 0 auto;
+	background-color: #fff;
+	display: flex;
+	flex-direction: column;
+	width: 500px;
+
+}
+
+.thesis p {
+	justify-content: space-evenly;
+	margin-top: 20px;
+	line-height: 22px;
+	color: #333;
+	font-size: 16px
+}
+
+.chart1, .chart2, .chart3, .chart4, .chart5, .chart6 {
+	margin: 0 auto;
+	background-color: #efefef;
+	display: flex;
+	flex-direction: column;
+	width: 490px;
+}
+
+.chart1, .chart2, .chart3, .chart4, .chart5, .chart6 p {
+	justify-content: space-evenly;
+	margin-top: 20px;
+	line-height: 22px;
+	color: #333;
+	font-size: 16px
+}
+
+
+/* Chart 1 */
+
+
+
+/* Chart 2 */
+
+
+
+/* Chart 3 */
+
+
 
