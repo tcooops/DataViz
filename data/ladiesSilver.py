@@ -1,9 +1,6 @@
 import csv
 import matplotlib.pyplot as plt
 
-# pie chart for men's hockey medal colors (gold, silver, bronze)
-# arrays for each color
-
 canadas = []
 americas = []
 germanys = []
